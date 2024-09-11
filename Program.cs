@@ -10,5 +10,6 @@ class Program
       new Uncompress().Run();
       new Anagrams().Run();
       new PairSum().Run();
+      new FiveSort().Run();
    }
 }
