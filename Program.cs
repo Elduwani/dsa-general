@@ -1,4 +1,4 @@
-﻿using DotnetDSA.Algo;
+﻿using DotnetDSA.Entities;
 
 namespace DotnetDSA;
 
@@ -8,5 +8,7 @@ class Program
    {
       new Compress().Run();
       new Uncompress().Run();
+      new Anagrams().Run();
+      new PairSum().Run();
    }
 }

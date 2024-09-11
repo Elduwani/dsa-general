@@ -1,6 +1,6 @@
 // using System;
 // using System.Linq;
-namespace DotnetDSA.Algo;
+namespace DotnetDSA.Entities;
 
 public class Compress()
 {
