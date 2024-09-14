@@ -32,19 +32,19 @@ public class FiveSort
 
    public void Run()
    {
-      var testCases = new List<string>{
-         "12, 5, 1, 5, 12, 7",
-         "5, 2, 5, 6, 5, 1, 10, 2, 5, 5",
-         "5, 5, 5, 1, 1, 1, 4",
-         "5, 5, 6, 5, 5, 5, 5",
-         "5, 1, 2, 5, 5, 3, 2, 5, 1, 5, 5, 5, 4, 5",
+      var testCases = new List<List<int>>
+      {
+          ([12, 5, 1, 5, 12, 7]),
+          ([5, 2, 5, 6, 5, 1, 10, 2, 5, 5]),
+          ([5, 5, 5, 1, 1, 1, 4]),
+          ([5, 5, 6, 5, 5, 5, 5]),
+          ([5, 1, 2, 5, 5, 3, 2, 5, 1, 5, 5, 5, 4, 5])
       };
 
       Console.WriteLine("\n>> Running FiveSort function <<");
       foreach (var testCase in testCases)
       {
-         var values = testCase.Split(", ").Select(n => Convert.ToInt32(n)).ToList();
-         Console.WriteLine($"{testCase} > {string.Join(", ", Evaluate(values))}");
+         Console.WriteLine($"{string.Join(", ", testCase)} > {string.Join(", ", Evaluate(testCase))}");
       }
    }
 }

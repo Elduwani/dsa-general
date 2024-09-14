@@ -11,5 +11,6 @@ class Program
       new Anagrams().Run();
       new PairSum().Run();
       new FiveSort().Run();
+      new CountPaths().Run();
    }
 }
