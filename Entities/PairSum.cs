@@ -35,7 +35,7 @@ public class PairSum()
          {12, [6, 4, 2, 8]},
       };
 
-      Console.WriteLine("\n>> Running PairSum function <<");
+      Console.WriteLine($"\n>> Running {GetType().Name} function <<");
       foreach (var testCase in testCases)
       {
          string values = string.Join(",", testCase.Value);

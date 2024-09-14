@@ -41,7 +41,7 @@ public class FiveSort
           ([5, 1, 2, 5, 5, 3, 2, 5, 1, 5, 5, 5, 4, 5])
       };
 
-      Console.WriteLine("\n>> Running FiveSort function <<");
+      Console.WriteLine($"\n>> Running {GetType().Name} function <<");
       foreach (var testCase in testCases)
       {
          Console.WriteLine($"{string.Join(", ", testCase)} > {string.Join(", ", Evaluate(testCase))}");

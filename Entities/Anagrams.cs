@@ -64,7 +64,7 @@ public class Anagrams()
          {"pp", "oo"},
       };
 
-      Console.WriteLine("\n>> Running Anagrams function <<");
+      Console.WriteLine($"\n>> Running {GetType().Name} function <<");
       foreach (var testCase in testCases)
       {
          Console.WriteLine($"{testCase.Key} > {testCase.Value} | {Evaluate(testCase.Key, testCase.Value)}");

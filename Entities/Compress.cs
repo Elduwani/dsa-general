@@ -33,7 +33,7 @@ public class Compress()
          "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
       };
 
-      Console.WriteLine("\n>> Running Compress function <<");
+      Console.WriteLine($"\n>> Running {GetType().Name} function <<");
       foreach (var testCase in testCases)
       {
          Console.WriteLine($"{testCase} | {Evaluate(testCase)}");
@@ -77,7 +77,7 @@ public class Uncompress()
          "12y"
       };
 
-      Console.WriteLine("\n>> Running Uncompress function <<");
+      Console.WriteLine($"\n>> Running {GetType().Name} function <<");
 
       foreach (var testCase in testCases)
       {

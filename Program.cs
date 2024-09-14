@@ -12,5 +12,6 @@ class Program
       new PairSum().Run();
       new FiveSort().Run();
       new CountPaths().Run();
+      new NonAdjacentSum().Run();
    }
 }

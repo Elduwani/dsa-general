@@ -1,5 +1,3 @@
-using System;
-
 namespace DotnetDSA.Entities;
 
 public class CountPaths
@@ -107,7 +105,7 @@ public class CountPaths
         },
         };
 
-        Console.WriteLine("\n>> Running CountPaths recursive function <<");
+        Console.WriteLine($"\n>> Running {GetType().Name} recursive function <<");
         foreach (var testCase in testCases)
         {
             var memo = new Dictionary<string, int>();
